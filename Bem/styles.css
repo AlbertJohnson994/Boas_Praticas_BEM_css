@@ -13,7 +13,7 @@
     margin: 56px auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 1%;
+    gap: 5%;
 }
 
 /* Bloco: Produto */
@@ -28,6 +28,7 @@
 
 /* Elemento: Imagem do produto */
 .product__image {
+    height: 50%;
     width: 100%;
 }
 
@@ -40,12 +41,16 @@
 /* Elemento: Descrição do produto */
 .product__description {
     color: gray;
+    margin-bottom: 34px;
+    padding-bottom: 20%;
+   
 }
 
 /* Modificador: Produto destacado */
 .product--highlighted {
     border: 2px solid gold;
     padding: 8px;
-    background-color: #ffff42;
+    background-color: #5d5d1c;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 34px;
 }
